@@ -1,0 +1,27 @@
+﻿<Page x:Class="Exam.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Exam"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3" Background="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="67*"/>
+            <RowDefinition Height="140*"/>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="153*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Image Source="WIN_20231030_00_13_37_Pro.jpg" HorizontalAlignment="Center" Height="100" Margin="0,42,0,0" VerticalAlignment="Top" Width="100" Grid.Row="2" Grid.RowSpan="2"/>
+        <Label Content="Welcome" HorizontalAlignment="Left" Margin="386,41,0,0" VerticalAlignment="Top" Grid.Row="1" Grid.RowSpan="2"/>
+        <Label Content="Name :" HorizontalAlignment="Left" Margin="239,13,0,0" VerticalAlignment="Top" Grid.Row="3"/>
+        <DataGrid Name="datauser" Height="NaN" Margin="0,14,0,0" Grid.Row="4" Grid.RowSpan="2"/>
+        <Label Name="nmaeLa" Content="" HorizontalAlignment="Left" Margin="292,13,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
